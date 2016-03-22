@@ -13,13 +13,13 @@
     .cc_btn {
         cursor: pointer;
         text-align: center;
-        font-size:0.6em;
+        font-size:0.9em;
         transition:font-size 200ms;
         line-height:1em;
     }
 
     .cc_message {
-        font-size:0.6em;
+        font-size:0.9em;
         transition:font-size 200ms;
         margin:0;
         padding:0;
@@ -48,11 +48,11 @@
     .cc_container {
 
         .cc_btn {
-            font-size:0.8em;
+            font-size:0.9em;
         }
 
         .cc_message {
-            font-size:0.8em;
+            font-size:0.9em;
         }
     }
 }

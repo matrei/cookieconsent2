@@ -293,7 +293,7 @@
 
       // If theme is specified by name
       if (theme.indexOf('.css') === -1) {
-        theme = THEME_BUCKET_PATH + theme + '.css';
+        theme = (this.options.THEME_BUCKET_PATH ? this.options.THEME_BUCKET_PATH : THEME_BUCKET_PATH) + theme + '.css';
       }
 
       var link = document.createElement('link');
